@@ -11,7 +11,9 @@ ENV EXTRA_PACKAGES="\
   intel-cmt-cat \
   javahelper \
   libatasmart-dev \
+  libca-dev \
   libcap-dev \
+  libcom-dev \
   libcurl4-gnutls-dev \
   libdbi-dev \
   libdpdk-dev \
@@ -106,6 +108,7 @@ ENV SUPPORTED_PLUGIN_LIST="\
   drbd \
   email \
   entropy \
+  epics \
   ethstat \
   exec \
   fhcount \
