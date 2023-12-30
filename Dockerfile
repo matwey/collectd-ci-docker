@@ -6,6 +6,7 @@ COPY /checks/*.sh /checks/
 ENV EXTRA_PACKAGES="\
   dpdk-dev \
   default-jdk \
+  epics-dev \
   intel-cmt-cat \
   javahelper \
   libatasmart-dev \
@@ -105,6 +106,7 @@ ENV SUPPORTED_PLUGIN_LIST="\
   drbd \
   email \
   entropy \
+  epics \
   ethstat \
   exec \
   fhcount \
