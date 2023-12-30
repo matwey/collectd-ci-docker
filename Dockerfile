@@ -11,6 +11,7 @@ ENV EXTRA_PACKAGES="\
   default-libmysqlclient-dev \
   gcc \
   gcc-10 \
+  epics-dev \
   intel-cmt-cat \
   javahelper \
   libatasmart-dev \
@@ -108,6 +109,7 @@ ENV SUPPORTED_PLUGIN_LIST="\
   drbd \
   email \
   entropy \
+  epics \
   ethstat \
   exec \
   fhcount \
